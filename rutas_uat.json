@@ -1,0 +1,29 @@
+[ {
+  "logical" : "a",
+  "physical" : "http://localhost:99999",
+  "baseURI" : "http://localhost:99999",
+  "degraded" : false,
+  "degradeTimeout" : 1,
+  "degradePermits" : 1
+}, {
+  "logical" : "aDASDas",
+  "physical" : "http://localhostasdfad",
+  "baseURI" : "http://localhost:99999",
+  "degraded" : true,
+  "degradeTimeout" : 2,
+  "degradePermits" : 3
+}, {
+  "logical" : "http:///www.agesic.gub.uy/Service/Echo",
+  "physical" : "http://192.168.98.104:15000/echo/echo",
+  "baseURI" : null,
+  "degraded" : false,
+  "degradeTimeout" : null,
+  "degradePermits" : null
+}, {
+  "logical" : "http://testtimestamp",
+  "physical" : "http://192.168.98.104:14000/ws",
+  "baseURI" : null,
+  "degraded" : true,
+  "degradeTimeout" : 1,
+  "degradePermits" : 2
+} ]

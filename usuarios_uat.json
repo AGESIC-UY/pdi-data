@@ -1,0 +1,8 @@
+[ {
+  "id" : null,
+  "login" : "usuario",
+  "nombre" : "Administrador",
+  "apellido" : null,
+  "password" : "contrasenia",
+  "permiso" : "ESCRITURA"
+} ]
